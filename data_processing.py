@@ -7,6 +7,8 @@ import os.path
 
 pickle_path = "./data/processed_features.pkl"
 
+# This relied heavily on information from https://scikit-learn.org/stable/
+
 # This will take the data from the CSV and process it for cosine similarity
 def process_data():
 

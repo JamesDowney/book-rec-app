@@ -7,6 +7,8 @@ import data_processing
 import requests
 import pickle
 
+# This relied heavily on information from https://scikit-learn.org/stable/
+
 data_processing.process_data()
 
 pickle_path = "./data/processed_features.pkl"

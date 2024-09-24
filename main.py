@@ -14,8 +14,7 @@ from tkinter import messagebox
 import matplotlib
 matplotlib.use('agg')
 
-# To anyone that reads the code on this, my condolences.
-# I can think of some better ways to structure tkinter code in retrospect but everything was very ad hoc putting it together.
+# This relied heavily on information from https://docs.python.org/3/library/tkinter.html
 
 root = tk.Tk()
 img = tk.PhotoImage(file='book-64.png')
